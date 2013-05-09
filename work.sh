@@ -22,8 +22,9 @@ git push -u origin master
 
 echo "add files into exists git"
 git add work.sh   
-git remote add origin https://github.com/JinfengChen/Git.git
-git push -u origin master
+git commit -m "update"
+git remote add update https://github.com/JinfengChen/Git.git
+git push -u update master
 
 
 
