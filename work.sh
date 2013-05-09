@@ -14,7 +14,17 @@ chmod u+x git-credential-osxkeychain
 git config --global credential.helper osxkeychain
 
 echo "start a project in git"
-git init
-git add work.sh
-git commit
+git init          ##start a git project
+git add work.sh   ##add file "work.sh" to git
+git commit -m "first try"   ##commit to git
+git remote add origin https://github.com/JinfengChen/Git.git     ##add files to remote site
+git push -u origin master
+
+echo "add files into exists git"
+git add work.sh   
+git remote add origin https://github.com/JinfengChen/Git.git
+git push -u origin master
+
+
+
 
