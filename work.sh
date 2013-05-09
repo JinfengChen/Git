@@ -15,4 +15,6 @@ git config --global credential.helper osxkeychain
 
 echo "start a project in git"
 git init
+git add work.sh
+git commit
 
